@@ -99,3 +99,48 @@
 //     document.write("Invalid Time")
 // }
 
+
+
+// // ------------------------------------Chap 14-16 --------------------------------------------
+// //#1
+// var studentArr = [];
+
+//  //#2
+// var studentArr = {};
+
+//  //#3
+// var stringArr = ["String"];
+
+//  //#4
+// var numberArr = [10];
+
+//  //#5
+// var booleanArr = [true, false];
+
+//  //#6
+// var mixedArr = ["String",10,true];
+
+//  //#7
+// var QualArr = ["SSC","HSC","BCS","BS","BCOM","MS","MPHIL","PHD"];
+// document.write("Qualifications:<br>");
+// console.log(QualArr);
+// document.write("<br>1)",QualArr[0]);
+// document.write("<br>2)",QualArr[1]);
+// document.write("<br>3)",QualArr[2]);
+// document.write("<br>4)",QualArr[3]);
+// document.write("<br>5)",QualArr[4]);
+// document.write("<br>6)",QualArr[5]);
+// document.write("<br>7)",QualArr[6]);
+// document.write("<br>8)",QualArr[7]);
+
+
+// //8
+var studentArr = ["Michael","John","Tony"];
+var numberArr = [320,230,480];
+var perArr = [];
+perArr[0] = numberArr[0]/500*100;
+perArr[1] = numberArr[1]/500*100;
+perArr[2] = numberArr[2]/500*100;
+document.write("Score of ", studentArr[0], " is ",numberArr[0], ".Percentage: ",perArr[0],"%");
+document.write("<br>Score of ", studentArr[1], " is ",numberArr[1], ".Percentage: ",perArr[1],"%");
+document.write("<br>Score of ", studentArr[2], " is ",numberArr[2], ".Percentage: ",perArr[2],"%");
